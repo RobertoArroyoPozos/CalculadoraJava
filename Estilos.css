@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #A9A9A9;
+}
+
+.pantalla{
+    background: silver;
+    height: 60px;
+    width: 700px;
+    text-align: center;
+    font-size: 45px;
+    color: #FFFFFF;
+    -webkit-border-radius: 20px;
+}
+
+.contenedor{
+    top: 30px;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    background: gray;
+    border: solid 2px#FFFFFF;
+    -webkit-border-radius: 30px;
+}
+
+.fila{
+    height: 100px;
+    width: 700px;
+    position: relative;
+    background: #f0f8ff;
+    
+}
+
+.no{
+    padding: 20px;
+    width: 150px;
+    background-color: rgb(0,0,0); 
+    opacity: 0;
+}
+
+.resultado{
+    background: #FFA500;
+}
+
+.operacion{
+    background: #808080;
+    color:#FFFFFF
+}
+
+button{
+    background-color: #808080;
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+    margin: 5px;
+    border: solid 5px#000000;
+    -webkit-border-radius: 20px;
+}
+
